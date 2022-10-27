@@ -1,4 +1,4 @@
-html {
+body {
     background-color: black;
 }
 
@@ -16,3 +16,13 @@ h2 {
     background-color: aqua;
 }
 
+#task-form {
+    padding-top: 10%;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+}
+
+.fixed-bottom {
+    background-color: white;
+}
