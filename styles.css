@@ -26,3 +26,52 @@ h2 {
 .fixed-bottom {
     background-color: white;
 }
+
+.form {
+    background: orange;
+    width: 15cm;
+    padding: 10px 20px;
+    border-radius: 10px;
+    height: 350px;
+    
+}
+
+
+.label {
+    width: 140px;
+    display: inline-block;
+    margin: 0.2cm;
+    font-size: 16px;
+    font-weight: bold;
+   
+}
+
+input{
+    padding: 4px;
+    margin: 5px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    width: 7cm;
+    
+}
+
+input#submit{
+    margin-top: 7px;
+    color: black;
+    font-weight: bold;
+    padding: 4px;
+    background-color: rgb(192, 176, 186);
+
+}
+
+input#submit:hover{
+    background-color: aquamarine;
+    color: bisque;
+}
+
+h2{
+    text-align: center;
+    text-decoration: none;
+    font-size: 24px;
+}
