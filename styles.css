@@ -11,16 +11,20 @@ body {
     font-size: 50px;
 }
 
+.container-fluid {
+    background-color: green;
+    color: purple;
+    width: 40cm;
+    padding: 10px 20px;
+    border: 5cm;
+    border-radius: 10px;
+    height: 180px;
+    display: grid;
+}
+
 h2 {
     color: blue;
     background-color: aqua;
-}
-
-#task-form {
-    padding-top: 10%;
-    background-color: red;
-    display: flex;
-    justify-content: center;
 }
 
 .fixed-bottom {
@@ -32,7 +36,7 @@ h2 {
     width: 15cm;
     padding: 10px 20px;
     border-radius: 10px;
-    height: 350px;
+    height: 360px;
     
 }
 
@@ -74,4 +78,8 @@ h2{
     text-align: center;
     text-decoration: none;
     font-size: 24px;
+}
+
+.btn-btn-success {
+
 }
